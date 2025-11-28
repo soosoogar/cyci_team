@@ -9,11 +9,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberController {
 
-
     @GetMapping("/sdfjhf")
     public String sdfjhf(){
         return "sdfjhf";
     }
 
 
+    @GetMapping("/coke")
+    public void coke() {
+        System.out.println("coke");
+    }
+
+    @GetMapping("/sosu")
+    public void sosu() {
+        log.info("sosu");
+
+    }
 }
