@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MemberController {
 
 
-    @GetMapping("/rmadydlf")
-    public void rmadydlf() {
-        log.info("rmadydlf");
+    @GetMapping("/sdfjhf")
+    public String sdfjhf(){
+        return "sdfjhf";
     }
+
+
 }
