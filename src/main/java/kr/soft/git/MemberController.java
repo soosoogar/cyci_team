@@ -11,7 +11,7 @@ public class MemberController {
 
 
     @GetMapping("/rmadydlf")
-    public void rmadydlf() {
-        log.info("rmadydlf");
+    public void sfdfdsfdfsdfsd() {
+        log.info("fsdfsdfsds");
     }
 }
