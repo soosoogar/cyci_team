@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberController {
 
+    @GetMapping("/sdfjhf")
+    public String sdfjhf(){
+        return "sdfjhf";
+    }
 
 
     @GetMapping("/coke")
