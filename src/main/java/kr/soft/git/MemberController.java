@@ -4,15 +4,21 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @Slf4j
+@RestController
 public class MemberController {
 
-    @RestController
-    public static class MemberControllerResource {
 
-        @GetMapping("/rmadydlf")
-        public void rmadydlf() {
-            log.info("rmadydlfdlsepdyd");
-        }
+
+    @GetMapping("/coke")
+    public void coke() {
+        System.out.println("coke");
+    }
+
+    @GetMapping("/sosu")
+    public void sosu() {
+        log.info("sosu");
+
     }
 }
